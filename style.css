@@ -29,7 +29,13 @@
 
 }
 
-.button-filled::hover {
+@media screen and (max-width: 1024px) {
+    .button-filled {
+        height: 100% !important;
+    }
+}
+
+.button-filled:hover {
     cursor: pointer;
 }
 
@@ -40,17 +46,18 @@
     font-size: 1.2rem;
     text-align: center;
 
-    background: '#A78043';
     color: white;
     
     border-radius: 0.125rem;
     border: 3px solid #A78043;
 
     padding: 0.75rem 1.25rem; 
+    transition: .3s;
 }
 
-.button-outlined::hover {
+.button-outlined:hover {
     cursor: pointer;
+    background: #A78043;
 }
 
 @media screen and (max-width:768px) {
@@ -62,6 +69,41 @@
     } 
 }
 
+.anchor {
+    display: block;
+    height: 143px;
+    margin-top: -143px;
+    visibility: hidden;
+}
+
+#menu-mobile {
+    transition: .3s;
+}
+
+.closed {
+    transform: translateX(-100%);
+}
+
+.opened {
+    transform: translateX(0%);
+}
+
+#menu.is-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    animation: slideDown 0.35s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
 
 
 .banner-container {
@@ -145,10 +187,4 @@
 
     gap: .5rem;
     margin-bottom: .5rem;
-}
-
-.footer-information__contact p {
-    font-size: 1.25rem;
-    position: relative;
-    top: 0;
 }
