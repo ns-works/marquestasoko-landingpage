@@ -70,7 +70,7 @@ Este é um projeto estático e leve
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/marquestasoko-landingpage.git](https://github.com/seu-usuario/marquestasoko-landingpage.git)
+   git clone https://github.com/ns-works/marquestasoko-landingpage.git
    ```
 
 2. **Abra o projeto**: Navegue até a pasta do projeto e abra o arquivo index.html no seu navegador.
