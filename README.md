@@ -21,6 +21,7 @@ A interface é totalmente responsiva, combinando a utilidade do **TailwindCSS** 
   - [Interatividade](#interatividade)
 - [Estrutura de pastas](#estrutura-pastas)
 - [Como Executar](#como-executar)
+- [Autor](#autor)
 
 ## Tecnologias Utilizadas
 
@@ -74,3 +75,16 @@ Este é um projeto estático e leve
    ```
 
 2. **Abra o projeto**: Navegue até a pasta do projeto e abra o arquivo index.html no seu navegador.
+
+## Autor
+
+[Nicolas Samuel](https://www.linkedin.com/in/nicolas-samuel-veras/)
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Behance][behance-shield]][behance-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin-white&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/nicolas-samuel-veras/
+[behance-shield]: https://img.shields.io/badge/Behance-0054F7?style=for-the-badge&logo=behance&colorB=555
+[behance-url]: https://www.behance.net/nicolsam
